@@ -4,7 +4,7 @@ from utils.checker import check_answer
 import os
 
 # 载入题库
-questions = pd.read_csv('D:\MIT_Calculus\calculus_quize_app\data/questions.csv')
+questions = pd.read_csv('data/questions.csv')
 
 # 初始状态
 if 'current_question' not in st.session_state:
